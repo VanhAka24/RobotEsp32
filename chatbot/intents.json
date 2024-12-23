@@ -1,0 +1,350 @@
+{
+    "intents": [
+        {
+            "tag": "AIDA",
+            "patterns": [
+                "What does AIDA mean?",
+                "What does AIDA stand for?",
+                "AIDA meaning?",
+                "Stand for?"
+            ],
+            "responses": [
+                "AIDA stands for ARTIFICIAL.INTELLIGENCE.DIGITAL.ASSISSTANT!",
+                "My full name is ARTIFICIAL.INTELLIGENCE.DIGITAL.ASSISSTANT, welcome user !"
+            ]
+        },
+        {
+
+            "tag": "name",
+            "patterns": [
+                "What's your name?",
+                "Name", 
+                "What's name?",
+                "Your name?"
+            ],
+            "responses": [
+                "My name is AIDA :-)",
+                "I'm AIDA <3"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Is anyone there?",
+                "Hey",
+                "Hi there",
+                "How are you?",
+                "How is it going?",
+                "Good day",
+                "Are you okay?",
+                "How have you been?",
+                "How is everything going?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hello, how can I help you?",
+                "Hello, welcome!",
+                "Hi!",
+                "Hi, how can I help you?",
+                "Hi, what would you like?",
+                "Hello, what would you like?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you",
+                "Take care"
+            ],
+            "responses": [
+                "See you later!",
+                "Take care!",
+                "Have a good day!",
+                "Bye!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you!",
+                "Thanks",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad I could help!",
+                "Anytime!"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Can you tell a joke?",
+                "Tell me something funny"
+            ],
+            "responses": [
+                "Why don't skeletons fight each other? They don't have the guts.",
+                "I told my wife she was drawing her eyebrows too high. She seemed surprised."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like today?",
+                "Is it going to rain?",
+                "How's the weather?",
+                "Tell me the forecast",
+                "Will it be sunny today?"
+            ],
+            "responses": [
+                "It's sunny today!",
+                "Expect some rain later.",
+                "The weather is quite pleasant.",
+                "It's cloudy with a chance of rain.",
+                "Check your local weather report for more details."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "I need help",
+                "Can you assist me?",
+                "How do I use this?",
+                "Help me please",
+                "I need support"
+            ],
+            "responses": [
+                "Of course! What do you need help with?",
+                "I'm here to assist you. Please describe your problem.",
+                "What can I help you with today?",
+                "Sure, feel free to ask your question."
+            ]
+        },
+        {
+            "tag": "food",
+            "patterns": [
+                "I'm hungry",
+                "Suggest a restaurant",
+                "What should I eat?",
+                "Any good places to eat?",
+                "I need a recipe"
+            ],
+            "responses": [
+                "How about trying some pasta?",
+                "I recommend the local Italian restaurant.",
+                "Why not cook a delicious stir-fry?",
+                "Check out our recipe section for ideas!"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "I'm not happy with this service",
+                "I want to file a complaint",
+                "This isn't working properly",
+                "Something went wrong",
+                "Can I talk to a manager?"
+            ],
+            "responses": [
+                "I'm sorry to hear that. Let me help you resolve this.",
+                "I apologize for the inconvenience. How can we fix it?",
+                "We value your feedback. Please share more details.",
+                "I'll forward this to the support team immediately."
+            ]
+        },
+        {
+            "tag": "fun_fact",
+            "patterns": [
+                "Tell me a fun fact",
+                "Do you know any interesting facts?",
+                "I want to learn something new",
+                "Surprise me with a fact"
+            ],
+            "responses": [
+                "Did you know that honey never spoils?",
+                "Bananas are berries, but strawberries aren't!",
+                "Octopuses have three hearts.",
+                "Wombat poop is cube-shaped."
+            ]
+        },
+        {
+            "tag": "date_time",
+            "patterns": [
+                "What's the time?",
+                "What day is it today?",
+                "Tell me the current date",
+                "What time is it now?"
+            ],
+            "responses": [
+                "It's currently [insert current time].",
+                "Today's date is [insert current date].",
+                "You can check your device for the exact time.",
+                "Right now, it's [insert current time here]."
+            ]
+        },
+        {
+            "tag": "appointment",
+            "patterns": [
+                "I want to book an appointment",
+                "Schedule a meeting",
+                "Can I see a doctor?",
+                "I need to make a reservation",
+                "Book a slot for me"
+            ],
+            "responses": [
+                "Sure, let me help you book an appointment.",
+                "Please provide the date and time.",
+                "Who would you like to meet with?",
+                "Your appointment has been scheduled."
+            ]
+        },
+        {
+            "tag": "music",
+            "patterns": [
+                "Play some music",
+                "Recommend a song",
+                "What's a good playlist?",
+                "I want to listen to something new",
+                "Play my favorite song"
+            ],
+            "responses": [
+                "Here's a popular song for you.",
+                "Try this new playlist!",
+                "What genre do you prefer?",
+                "Let me find something you'll love."
+            ]
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "I need motivation",
+                "Inspire me",
+                "Tell me something encouraging",
+                "I'm feeling down",
+                "Can you give me a pep talk?"
+            ],
+            "responses": [
+                "You are stronger than you think!",
+                "Believe in yourself; you can achieve anything.",
+                "Every challenge is an opportunity in disguise.",
+                "Keep going! Success is just around the corner."
+            ]
+        },
+        {
+            "tag": "translation",
+            "patterns": [
+                "Translate this to Spanish",
+                "How do you say 'hello' in French?",
+                "Can you translate this?",
+                "What's this word in German?",
+                "Help me with translation"
+            ],
+            "responses": [
+                "Sure, here's the translation.",
+                "Let me translate that for you.",
+                "In Spanish, you'd say it like this.",
+                "Please provide the text you need help with."
+            ]
+        },
+        {
+            "tag": "travel",
+            "patterns": [
+                "Recommend a travel destination",
+                "What's a good place to visit?",
+                "Plan a trip for me",
+                "Where should I go on vacation?",
+                "Suggest a holiday spot"
+            ],
+            "responses": [
+                "How about visiting Bali?",
+                "I recommend Paris for a romantic getaway.",
+                "Explore the mountains of Switzerland!",
+                "You might enjoy a beach vacation in the Maldives."
+            ]
+        },
+        {
+            "tag": "fitness",
+            "patterns": [
+                "Suggest a workout plan",
+                "I want to get fit",
+                "What's a good exercise routine?",
+                "Help me lose weight",
+                "How do I build muscle?"
+            ],
+            "responses": [
+                "Try starting with 30 minutes of cardio daily.",
+                "Focus on a balanced diet and regular exercise.",
+                "Here's a workout plan for beginners.",
+                "Consistency is key to fitness!"
+            ]
+        },
+        {
+            "tag": "movie_recommendation",
+            "patterns": [
+                "Recommend a movie",
+                "What's a good film to watch?",
+                "I need a movie suggestion",
+                "Suggest something on Netflix",
+                "Any good comedies?"
+            ],
+            "responses": [
+                "How about watching 'Inception'?",
+                "You might enjoy 'The Grand Budapest Hotel'.",
+                "Try 'Parasite' if you like thrillers.",
+                "Check out 'The Office' for some laughs!"
+            ]
+        },
+        {
+            "tag": "birthday_wishes",
+            "patterns": [
+                "It's my friend's birthday",
+                "Wish someone a happy birthday",
+                "Birthday greetings",
+                "Help me write a birthday message",
+                "I need birthday wishes"
+            ],
+            "responses": [
+                "Happy Birthday! Wishing you all the best.",
+                "Hope your special day is filled with joy!",
+                "Another year older, another year wiser!",
+                "Celebrate big and have a fantastic day!"
+            ]
+        },
+        {
+            "tag": "sports_update",
+            "patterns": [
+                "What's the latest sports news?",
+                "Score update",
+                "Tell me about the game",
+                "Who won the match?",
+                "Any sports highlights?"
+            ],
+            "responses": [
+                "Check out the latest match results here.",
+                "Your favorite team played exceptionally well!",
+                "Here's the sports update for today.",
+                "Stay tuned for more highlights."
+            ]
+        },
+        {
+            "tag": "holiday_greetings",
+            "patterns": [
+                "Merry Christmas",
+                "Happy New Year",
+                "Holiday wishes",
+                "Send festive greetings",
+                "Season's greetings"
+            ],
+            "responses": [
+                "Merry Christmas and a Happy New Year!",
+                "Wishing you a joyful holiday season!",
+                "Hope your holidays are merry and bright!",
+                "Season's greetings to you and your family!"
+            ]
+        }
+    ]
+}

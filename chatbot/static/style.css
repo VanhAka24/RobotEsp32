@@ -1,0 +1,197 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 100%;
+    line-height: 1.6;
+}
+
+.box {
+    background-image: url('/static/img/anhbautroisao.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    backdrop-filter: blur(5px);
+}
+
+.chat-container {
+    width: 80%;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-box {
+    width: 100%;
+    height: 350px;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.chat-box::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.chat-box::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 10px;
+}
+
+.chat-box::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.chat-box .user,
+.chat-box .bot {
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    text-align: left;
+    max-width: 70%;
+    word-wrap: break-word;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.chat-box .user {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    align-self: flex-end;
+    margin-right: 10px;
+    border-radius: 10px 10px 0px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box .bot {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    align-self: flex-start;
+    margin-left: 10px;
+    border-radius: 10px 10px 10px 0px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-box .user:hover,
+.chat-box .bot:hover {
+    background-color: #ccd5df;
+    color: #080808;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 10px;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+#user-input-wrapper {
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden; 
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #e0e0e0;
+    min-height: 45px;
+    resize: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    overflow-y: auto; 
+    border: 2px solid black; 
+    border-radius: 25px; 
+}
+
+#user-input::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+#user-input::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 25px;
+}
+
+#user-input::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 25px;
+}
+
+#user-input::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#user-input:focus {
+    border-color: #080808;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#send-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 28px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 50%;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+    transition: all 0.3s ease;
+    margin-left: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#send-btn:hover {
+    background-color: rgba(250, 247, 247, 0.3);
+    color: #080808;
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
